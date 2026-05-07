@@ -2,7 +2,7 @@
 
 ---
 **Judul Artikel:** Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
-# Mediun Artikel : **https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9**
+**Mediun Artikel :** https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 ---
 
 **Dari Query SQL ke Insight Bisnis: Cara Data Analyst Mengungkap Pola Flight Delay**  
@@ -11,15 +11,15 @@ Lead Awal  SQL bukan lagi sekadar bahasa query untuk mengambil data, tetapi suda
 Ini mencerminkan alur kerja Data Analyst di dunia profesional: dari data mentah hingga insight bernilai.  
 
 ---  
-**Body Artikel**  
-**1. Data Cleaning & Validasi: Fondasi Insight yang Kredibel**  
+ 
+1. Data Cleaning & Validasi: Fondasi Insight yang Kredibel  
 Langkah pertama dalam analisis adalah memastikan data dalam kondisi bersih dan valid. Dengan menggunakan kondisi `IS NULL` dan `WHERE`, query SQL dapat mengidentifikasi baris data yang memiliki nilai kosong pada kolom penting seperti `actual_departure` dan `departure_delay`. Tahap ini sangat krusial karena data yang tidak lengkap dapat menghasilkan kesimpulan yang salah. Dalam praktik kerja Data Analyst, data cleaning sering memakan waktu paling banyak, dan SQL memungkinkan proses ini dilakukan lebih cepat dan konsisten dibandingkan pemrosesan manual.  
 ---  
-**2. Mengukur Performa Maskapai dengan Rata-Rata Delay**  
+2. Mengukur Performa Maskapai dengan Rata-Rata Delay
 Setelah data dibersihkan, analisis berlanjut dengan menghitung rata-rata keterlambatan penerbangan setiap maskapai menggunakan fungsi `AVG()` dan `GROUP BY`. Dengan menyaring penerbangan yang tidak dibatalkan (`cancelled = 0`), hasil analisis menjadi lebih relevan dan adil. Query ini membantu menjawab pertanyaan penting: 
 **maskapai mana yang memiliki performa paling buruk dalam hal ketepatan waktu?** Insight semacam ini dapat digunakan oleh manajemen untuk mengevaluasi kualitas layanan dan merancang strategi perbaikan operasional.  
 ---  
-**3. Mengungkap Pola Delay Berdasarkan Waktu Keberangkatan**  
+3. Mengungkap Pola Delay Berdasarkan Waktu Keberangkatan  
 SQL juga memungkinkan analisis berbasis waktu dengan memanfaatkan `EXTRACT(HOUR)` dan `CASE WHEN` untuk mengelompokkan penerbangan ke dalam kategori pagi, siang, dan malam. Pendekatan ini membuka peluang insight yang lebih dalam, seperti mengetahui jam keberangkatan mana yang paling sering mengalami keterlambatan. Informasi ini dapat membantu perusahaan mengoptimalkan jadwal penerbangan, manajemen kru, hingga perencanaan operasional bandara.  
 ---  
 **4. Menemukan Bandara dan Rute dengan Risiko Keterlambatan Tinggi**  

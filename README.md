@@ -1,10 +1,8 @@
-## Project-Flight-Delay-Cancellation-Analysis
-
 [![Requestly sponsorship](https://miro.medium.com/v2/resize:fit:720/format:webp/1*QL0L1W-9cRbDTkrlr-SlPA.jpeg)](https://requestly.com/harrisariefkmais)
 
 ---
 Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
-https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
+## https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9 ##
 ---
 SQL bukan lagi sekadar bahasa query untuk mengambil data, tetapi sudah menjadi **senjata utama Data Analyst untuk menghasilkan insight bisnis yang berdampak nyata**. Dalam industri transportasi dan penerbangan, analisis keterlambatan penerbangan (*flight delay*) menjadi contoh nyata bagaimana SQL digunakan untuk mendukung pengambilan keputusan strategis. Melalui studi kasus dataset penerbangan, artikel ini membahas bagaimana query SQL dapat digunakan untuk membersihkan data, mengukur performa maskapai, menganalisis pola keterlambatan berdasarkan waktu, hingga menyusun ringkasan metrik yang siap dijadikan dashboard. 
 Ini mencerminkan alur kerja Data Analyst di dunia profesional: dari data mentah hingga insight bernilai.  

@@ -1,8 +1,8 @@
-## Project-Flight-Delay-Cancellation-Analysis
+## Project-Flight-Delay-Cancellation-Analysis ##
 
 ---
-*Judul Artikel: Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
-*Mediun Artikel : https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
+Judul Artikel: Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
+Mediun Artikel : https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 ---
 
 **Dari Query SQL ke Insight Bisnis: Cara Data Analyst Mengungkap Pola Flight Delay**  
@@ -15,23 +15,25 @@ Ini mencerminkan alur kerja Data Analyst di dunia profesional: dari data mentah 
 1. Data Cleaning & Validasi: Fondasi Insight yang Kredibel  
 Langkah pertama dalam analisis adalah memastikan data dalam kondisi bersih dan valid. Dengan menggunakan kondisi `IS NULL` dan `WHERE`, query SQL dapat mengidentifikasi baris data yang memiliki nilai kosong pada kolom penting seperti `actual_departure` dan `departure_delay`. Tahap ini sangat krusial karena data yang tidak lengkap dapat menghasilkan kesimpulan yang salah. Dalam praktik kerja Data Analyst, data cleaning sering memakan waktu paling banyak, dan SQL memungkinkan proses ini dilakukan lebih cepat dan konsisten dibandingkan pemrosesan manual.  
 ---  
-2. Mengukur Performa Maskapai dengan Rata-Rata Delay
+2. Mengukur Performa Maskapai dengan Rata-Rata Delay.
 Setelah data dibersihkan, analisis berlanjut dengan menghitung rata-rata keterlambatan penerbangan setiap maskapai menggunakan fungsi `AVG()` dan `GROUP BY`. Dengan menyaring penerbangan yang tidak dibatalkan (`cancelled = 0`), hasil analisis menjadi lebih relevan dan adil. Query ini membantu menjawab pertanyaan penting: 
 **maskapai mana yang memiliki performa paling buruk dalam hal ketepatan waktu?** Insight semacam ini dapat digunakan oleh manajemen untuk mengevaluasi kualitas layanan dan merancang strategi perbaikan operasional.  
 ---  
 3. Mengungkap Pola Delay Berdasarkan Waktu Keberangkatan  
 SQL juga memungkinkan analisis berbasis waktu dengan memanfaatkan `EXTRACT(HOUR)` dan `CASE WHEN` untuk mengelompokkan penerbangan ke dalam kategori pagi, siang, dan malam. Pendekatan ini membuka peluang insight yang lebih dalam, seperti mengetahui jam keberangkatan mana yang paling sering mengalami keterlambatan. Informasi ini dapat membantu perusahaan mengoptimalkan jadwal penerbangan, manajemen kru, hingga perencanaan operasional bandara.  
 ---  
-**4. Menemukan Bandara dan Rute dengan Risiko Keterlambatan Tinggi**  
+4. Menemukan Bandara dan Rute dengan Risiko Keterlambatan Tinggi 
 Dengan mengelompokkan data berdasarkan bandara asal (`origin`) dan menghitung rata-rata delay, SQL dapat mengidentifikasi lokasi yang paling sering mengalami keterlambatan. Insight ini dapat digunakan untuk mengalokasikan sumber daya, meningkatkan koordinasi operasional, atau bahkan menjadi dasar negosiasi kerja sama dengan otoritas bandara. Di sinilah peran Data Analyst bukan hanya sebagai teknisi data, tetapi juga sebagai *problem solver bisnis*.  
 ---  
-**5. Analisis Pembatalan Penerbangan sebagai Indikator Risiko**  Selain keterlambatan, tingkat pembatalan penerbangan juga dianalisis menggunakan `COUNT()`, `SUM()`, dan perhitungan persentase. Dengan menghitung *cancel rate*, Data Analyst dapat mengidentifikasi maskapai dengan risiko pembatalan tertinggi. Metrik ini sangat penting bagi stakeholder karena mencerminkan tingkat keandalan layanan serta potensi risiko reputasi perusahaan. 
+5. Analisis Pembatalan Penerbangan sebagai Indikator Risiko
+Selain keterlambatan, tingkat pembatalan penerbangan juga dianalisis menggunakan `COUNT()`, `SUM()`, dan perhitungan persentase. Dengan menghitung *cancel rate*, Data Analyst dapat mengidentifikasi maskapai dengan risiko pembatalan tertinggi. Metrik ini sangat penting bagi stakeholder karena mencerminkan tingkat keandalan layanan serta potensi risiko reputasi perusahaan. 
 ---  
-**6. Dari Query SQL ke Dashboard dan Decision-Making**  
+6. Dari Query SQL ke Dashboard dan Decision-Making  
 Langkah terakhir menggabungkan berbagai metrik—rata-rata delay, jumlah pembatalan, dan total penerbangan—ke dalam satu query ringkasan. Hasilnya dapat langsung digunakan untuk membangun dashboard di Looker Studio atau dianalisis lanjutan di Excel. Workflow ini menunjukkan bagaimana SQL menjadi jembatan antara **data mentah** dan **keputusan bisnis berbasis insight**.  **Baca juga: DQLab Bootcamp Excel for Data Analyst** 
 ---
 
 
 👉anda bisa baca disini..
+https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 👉tag aku jika kamu,buat project..!!!
 

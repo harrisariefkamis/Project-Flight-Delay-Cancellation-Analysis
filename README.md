@@ -45,7 +45,6 @@ https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-a
 | 🐙 GitHub | [github.com/harisariefkamis](https://github.com/harisariefkamis) |
 
 ---
-
-*Dibuat oleh: Haris Arief Kamis 
+Dibuat oleh: Haris Arief Kamis 
 
 

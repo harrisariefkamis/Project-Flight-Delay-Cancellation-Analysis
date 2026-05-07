@@ -1,8 +1,8 @@
 ## Project-Flight-Delay-Cancellation-Analysis
 
 ---
-**Judul Artikel:** Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
-**Mediun Artikel :** https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
+*Judul Artikel: Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
+*Mediun Artikel : https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 ---
 
 **Dari Query SQL ke Insight Bisnis: Cara Data Analyst Mengungkap Pola Flight Delay**  

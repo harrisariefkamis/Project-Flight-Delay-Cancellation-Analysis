@@ -31,7 +31,21 @@ Langkah terakhir menggabungkan berbagai metrik—rata-rata delay, jumlah pembata
 ---
 
 
-👉anda bisa baca disini..
+👉Anda bisa baca disini..
 https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 👉tag aku jika kamu,buat project..!!!
+
+## 📞 Kontak
+
+| Platform | Link |
+|---|---|
+| 📧 Email | harisariefkamis16@gmail.com |
+| 📱 WhatsApp | +62 852-8243-6796 |
+| 💼 LinkedIn | [linkedin.com/in/harisariefkamis](https://linkedin.com/in/harisariefkamis) |
+| 🐙 GitHub | [github.com/harisariefkamis](https://github.com/harisariefkamis) |
+
+---
+
+*Dibuat oleh: Haris Arief Kamis 
+
 

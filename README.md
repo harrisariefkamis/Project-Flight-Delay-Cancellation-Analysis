@@ -1,15 +1,13 @@
-## Project-Flight-Delay-Cancellation-Analysis ##
+**Project-Flight-Delay-Cancellation-Analysis**
 
 ---
 Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight
 https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 ---
-
 SQL bukan lagi sekadar bahasa query untuk mengambil data, tetapi sudah menjadi **senjata utama Data Analyst untuk menghasilkan insight bisnis yang berdampak nyata**. Dalam industri transportasi dan penerbangan, analisis keterlambatan penerbangan (*flight delay*) menjadi contoh nyata bagaimana SQL digunakan untuk mendukung pengambilan keputusan strategis. Melalui studi kasus dataset penerbangan, artikel ini membahas bagaimana query SQL dapat digunakan untuk membersihkan data, mengukur performa maskapai, menganalisis pola keterlambatan berdasarkan waktu, hingga menyusun ringkasan metrik yang siap dijadikan dashboard. 
 Ini mencerminkan alur kerja Data Analyst di dunia profesional: dari data mentah hingga insight bernilai.  
 
 ---  
- 
 1. Data Cleaning & Validasi: Fondasi Insight yang Kredibel  
 Langkah pertama dalam analisis adalah memastikan data dalam kondisi bersih dan valid. Dengan menggunakan kondisi `IS NULL` dan `WHERE`, query SQL dapat mengidentifikasi baris data yang memiliki nilai kosong pada kolom penting seperti `actual_departure` dan `departure_delay`. Tahap ini sangat krusial karena data yang tidak lengkap dapat menghasilkan kesimpulan yang salah. Dalam praktik kerja Data Analyst, data cleaning sering memakan waktu paling banyak, dan SQL memungkinkan proses ini dilakukan lebih cepat dan konsisten dibandingkan pemrosesan manual.  
 ---  

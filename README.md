@@ -1,9 +1,6 @@
 ## Project-Flight-Delay-Cancellation-Analysis
 
-<a href="https://requestly.com/harrisariefkmais">
-      <img alt="Requestly sponsorship" width="400" src="[https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9](https://miro.medium.com/v2/resize:fit:720/format:webp/1*QL0L1W-9cRbDTkrlr-SlPA.jpeg)">
-   </a>
-   <br>
+[![Requestly sponsorship](https://miro.medium.com/v2/resize:fit:720/format:webp/1*QL0L1W-9cRbDTkrlr-SlPA.jpeg)](https://requestly.com/harrisariefkmais)
 
 ---
 Project MINI SQL & Insight Bisnis: Cara Data Analyst Mengunkap Pola Delay Flight

@@ -23,21 +23,20 @@ Dengan mengelompokkan data berdasarkan bandara asal (`origin`) dan menghitung ra
 ## 5. Analisis Pembatalan Penerbangan sebagai Indikator Risiko
 Selain keterlambatan, tingkat pembatalan penerbangan juga dianalisis menggunakan `COUNT()`, `SUM()`, dan perhitungan persentase. Dengan menghitung *cancel rate*, Data Analyst dapat mengidentifikasi maskapai dengan risiko pembatalan tertinggi. Metrik ini sangat penting bagi stakeholder karena mencerminkan tingkat keandalan layanan serta potensi risiko reputasi perusahaan. 
  
-## 6. Dari Query SQL ke Dashboard dan Decision-Making  
-Langkah terakhir menggabungkan berbagai metrik—rata-rata delay, jumlah pembatalan, dan total penerbangan—ke dalam satu query ringkasan. Hasilnya dapat langsung digunakan untuk membangun dashboard di Looker Studio atau dianalisis lanjutan di Excel. Workflow ini menunjukkan bagaimana SQL menjadi jembatan antara **data mentah** dan **keputusan bisnis berbasis insight**.  **Baca juga: DQLab Bootcamp Excel for Data Analyst** 
----
+## 6. Dari Query SQL ke Dashboard dan Decision-Making
+Langkah terakhir menggabungkan berbagai metrik—rata-rata delay, jumlah pembatalan, dan total penerbangan—ke dalam satu query ringkasan. Hasilnya dapat langsung digunakan untuk membangun dashboard di Looker Studio atau dianalisis lanjutan di Excel.
 
 
 ## 📞 Kontak
+
 | Platform | Link |
 |---|---|
 | 📧 Email | harisariefkamis16@gmail.com |
 | 📱 WhatsApp | +62 852-8243-6796 |
 | 💼 LinkedIn | [linkedin.com/in/harisariefkamis](https://linkedin.com/in/harisariefkamis) |
-| 🐙 GitHub | [github.com/harisariefkamis](https://github.com/harisariefkamis) |
----
+| 🐙 GitHub | [github.com/harisariefkamis](https://github.com/harisariefkamis)
 
-👉Anda bisa baca disini: https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
+👉Anda bisa baca disini:https://medium.com/@harrisariefkamis/project-mini-sql-insight-bisnis-cara-data-analyst-mengunkap-pola-delay-flight-0841230994e9
 👉tag aku jika kamu,buat project..!!!
 Dibuat oleh: Haris Arief Kamis 
 
